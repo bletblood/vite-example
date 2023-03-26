@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+    "target": "ES6",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
       "components/*": ["src/components/*"],
       "pages/*": ["src/pages/*"],
       "utils/*": ["src/utils/*"],
-      "hooks/*": ["src/hooks/*"],
+      "store/*": ["src/store/*"],
       "scss/*": ["src/scss/*"],
     }
   },
