@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
+    "target": "esnext",
+    "module": "esnext",
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
@@ -12,5 +12,6 @@
       "scss/*": ["src/scss/*"],
     }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

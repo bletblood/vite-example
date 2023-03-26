@@ -1,4 +1,4 @@
-import Home from './Home.jsx'
-import styles from './Home.module.scss'
+import Home from './Home.jsx';
+import styles from './Home.module.scss';
 
-export default Home
+export default Home;

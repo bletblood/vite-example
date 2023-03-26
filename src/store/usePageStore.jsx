@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import ky from 'ky'
 
 const usePageStore = create((set) => ({
   loading: true,

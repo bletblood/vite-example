@@ -1,4 +1,4 @@
-import Layout from './Layout.jsx'
-import styles from './Layout.module.scss'
+import Layout from './Layout.jsx';
+import styles from './Layout.module.scss';
 
-export default Layout
+export default Layout;

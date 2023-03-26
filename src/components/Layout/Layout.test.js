@@ -6,7 +6,7 @@ import Layout from './Layout';
 describe('<Layout />', () => {
   test('it should mount', () => {
     render(<Layout />);
-    
+
     const layout = screen.getByTestId('Layout');
 
     expect(layout).toBeInTheDocument();

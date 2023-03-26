@@ -6,7 +6,7 @@ import ErrorMessage from './ErrorMessage';
 describe('<ErrorMessage />', () => {
   test('it should mount', () => {
     render(<ErrorMessage />);
-    
+
     const errorMessage = screen.getByTestId('ErrorMessage');
 
     expect(errorMessage).toBeInTheDocument();

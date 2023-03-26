@@ -1,5 +1,3 @@
-import usePageStore from './usePageStore'
+import usePageStore from './usePageStore';
 
-export {
-  usePageStore
-}
+export { usePageStore };

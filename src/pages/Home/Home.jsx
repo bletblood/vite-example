@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     removeAllData()
     return () => setData(10)
-  }, [])
+  }, [removeAllData, setData])
 
   console.log(data);
   if(loading) return <h6>Loading...</h6>
